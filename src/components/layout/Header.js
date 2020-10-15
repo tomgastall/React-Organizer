@@ -8,10 +8,10 @@ export const Header = () => {
     return (
     <header className="header" data-testid="header">
         <nav>
-            <div classname="logo">
+            <div className="logo">
                 <img src="/images/logo.png" alt="Todoist" />
             </div>    
-            <div classname="settings">
+            <div className="settings">
                 <ul>
                     <li>+</li>
                     <li><FaPizzaSlice /></li>
